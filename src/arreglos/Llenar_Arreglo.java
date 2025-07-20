@@ -12,9 +12,6 @@ import javax.swing.JOptionPane;
  * @author Lee Brandon
  */
 public class Llenar_Arreglo {
-    /*
-    
-    */
     public static void main(String[] args) {
         //Podemos definir el arreglo desde el principio y luego darle el tamaño ----> int arreglo[]
         Scanner leer = new Scanner(System.in);
