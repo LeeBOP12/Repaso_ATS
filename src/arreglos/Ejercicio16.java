@@ -54,7 +54,7 @@ public class Ejercicio16 {
             do {
                 System.out.print((i + 1) + ".Alumno: ");
                 tercerT[i] = Float.parseFloat(leer.nextLine());
-                if (tercerT[i] < 0 || tercerT[i] > 10) {
+                if (tercerT[i] < 0 || tercerT[i] > 20) {
                     System.out.println("Nota fuera de rango [0 - 20]");
                 }
             } while (tercerT[i] < 0 || tercerT[i] > 20);
@@ -71,7 +71,7 @@ public class Ejercicio16 {
         mediaAlumno = (primerT[posicion] + segundoT[posicion] + tercerT[posicion])/3;
         
         //Mostramos media de las notas de los alumnos por trimestre
-        System.out.println("=== MEDIA DE CADA TRIMESTRE ===");
+        System.out.println("\n=== MEDIA DE CADA TRIMESTRE ===");
         System.out.println("Media primer trimestre: "+sumaT1/5);
         System.out.println("Media segundo trimestre: "+sumaT2/5);
         System.out.println("Media tercer trimestre: "+sumaT3/5);
